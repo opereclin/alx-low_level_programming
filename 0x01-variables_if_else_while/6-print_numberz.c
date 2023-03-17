@@ -3,18 +3,18 @@
 /**
  * main - Entry point
  *
- * Description: This program prints lowercase alphabet in reverse
+ * Description: This program prints the digits 0-9 to the console
+ * using the putchar function.
  *
- * Return: Always 0 (success)
+ * Return: ALways 0 (success)
  */
 int main(void)
 {
-	int i = 122;
+	int i;
 
-	while (i >= 97)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
-		i--;
+		putchar(i + 48);
 	}
 	putchar('\n');
 	return (0);
